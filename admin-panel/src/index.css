@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+
+.nav-link {
+  color: aliceblue !important;
+}
+
+.Offcanvas {
+  width: 10px !important;
+}
+
+.hr {
+  border-bottom: "1px solid black";
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("components//shared/7Sv5.gif");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  min-height: 74vh;
+}
+:root {
+  --b-a-width: 1vw;
+  --b-a-md-width: 5vw;
+  --b-a-sm-width: 10vw;
+}
+/* .item1:hover::before {
+  content: "   ";
+  border-right: 1px solid seagreen;
+  border-top: 1px solid seagreen;
+  margin-left: "60px";
+}
+
+.item1:hover::after {
+  content: "   ";
+  border-left: 1px solid seagreen;
+  margin-left: "60px";
+} */
